@@ -1,0 +1,80 @@
+.footer__main {
+    /* height: 400px ; */
+    background-image: var(--gradiant);
+}
+
+.footer__row {
+    padding: 65px 0 75px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+}
+
+.footer__heading {
+    font-size: 18px;
+    letter-spacing: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    padding: 0 0 1em;
+    margin-bottom: 1em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.footer__box ul{
+    padding-left: 0 ;
+}
+
+.footer__menu__navigation ul {
+    
+}
+
+.footer__menu__navigation li {
+    margin-bottom: 6px;
+    line-height: 1.41575em;
+
+}
+
+.footer__menu__navigation li a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none ;
+}
+
+.footer__bottom {
+    padding: 20px 0;
+    /* background: url('../../assets/images/payments_.svg'); */
+    background-image: url('../../../public/assets/images/payments_.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.footer__bottom span {
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    /* display: block; */
+}
+
+.footer__bottom span a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width : 575px) {
+    .footer__margin__fix__2 {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .footer__margin__fix {
+        margin-top: 35px;
+    }
+
+    .footer__bottom {
+        display: none;
+    }
+}

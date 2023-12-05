@@ -1,0 +1,19 @@
+.page__title h1{
+    position: relative;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color : #333 ; 
+    text-transform: capitalize;
+    letter-spacing: -1px ;
+}
+
+.page__title h1::after{
+    position: absolute;
+    content: "";
+    border-bottom: 3px solid #ff643d;
+    width : 75px ; 
+    bottom : 5px ; 
+    left : 50% ; 
+    transform: translate(-50%,10px);
+}

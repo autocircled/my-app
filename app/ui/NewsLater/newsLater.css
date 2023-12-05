@@ -1,0 +1,107 @@
+.newslater__main {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.newslater__title {
+
+    margin-bottom: 25px;
+}
+
+.newslater__heading {
+    position: relative;
+}
+
+.newslater__heading h1 {
+    font-size: 28px;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.newslater__heading h1::after {
+    border-bottom: 3px solid #FF643D;
+    content: '';
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 10px);
+}
+
+.newslater__title p {
+    color: #6d6d6d;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.newslater__form {
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.newslater__name {
+    width: 50%;
+}
+
+.newslater__email {
+    width: 50%;
+}
+
+
+
+.newslater__name input {
+    width: 50%;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    min-height: 40px !important;
+    background-color: #f8f8f8 !important;
+    padding-left: 15px !important;
+    color: #43454b;
+    box-shadow: 0px 1px 6px #d8d7d7;
+    background-color: #F6F6F6;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-radius: 30px 0 0 30px;
+}
+
+.newslater__email input {
+    width: 50%;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    min-height: 40px !important;
+    background-color: #f8f8f8 !important;
+    padding-left: 15px !important;
+    color: #43454b;
+    box-shadow: 0px 1px 6px #d8d7d7;
+    background-color: #F6F6F6;
+    padding: 13px 25px;
+    font-size: 15px;
+    border-radius: 0px 30px 30px 0px;
+}
+
+.newslater__submit__button {
+    position: absolute;
+    top: 5px;
+    right: 17px;
+    background-image: var(--gradiant);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 50%;
+}
+
+.newslater__submit__button input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 0;
+}
+
+.newslater__submit__button svg {
+    fill: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+.breadcrumb__main{
+    /* margin : 25px 0px 10px 0 ;  */
+}
+
+.breadcrumb__main .breadcrumb{
+    margin: 0;
+    padding : 19px 0 ; 
+}
+
+.breadcrumb__main .breadcrumb li{
+    /* font-size: 13.75px;  */
+    font-size: 11.75px;  
+    cursor: pointer;   
+}
+
+.breadcrumb__main .breadcrumb li a{
+    color : #727272 ; 
+    text-decoration: underline;
+    
+}
+
+.breadcrumb__main .breadcrumb li:first-child span{
+    margin-right: 5px ;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    
+    color: #aaa ; 
+    content: var(--bs-breadcrumb-divider, ">");
+}

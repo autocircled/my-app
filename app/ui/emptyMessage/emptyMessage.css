@@ -1,0 +1,19 @@
+.empty__message{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.618;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    background-color: #3d9cd2;
+}
+.empty__message p{
+    margin-bottom: 2.617924em;
+    margin-left: 0;
+    border-radius: 2px;
+    color: #fff;
+    clear: both;
+    border-left: 0.6180469716em solid rgba(0,0,0,.15);
+    padding: 1em 2em 1em 3.5em;
+    position: relative;
+    list-style: none outside;
+}

@@ -1,0 +1,36 @@
+
+.media__box{
+    text-align: center;
+}
+
+
+.media__img {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px #ddd;
+    width: 180px;
+    margin: auto;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media__img img{
+    border-radius: 3px ;
+}
+
+.media__text .media__heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 5px 0;
+    display: block;
+    color: #333 ;
+}
+
+.media__text  .media__description{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #6d6d6d;
+    line-height: 1.618;
+}
